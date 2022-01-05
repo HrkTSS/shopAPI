@@ -71,3 +71,30 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+*** Note ***
+Requirement node,npm
+***installs nestjs cli globally***
+First time in nest ---> npm i -g @nestjs/cli
+
+To create a new project ----> nest new ***project name***
+For existing project by Git clone kindly use ----> npm install
+
+npm i typeorm pg
+
+***Validators(typeorm support dto for validation of user data will be using following package)***
+npm i class-validator class-transformer
+
+***TypeORM dependancies(database functionality handling)***
+npm i @nestjs/typeorm typeorm pg
+To create a resource ---> nest g resource ***name*** -> Rest API -> Y
+
+*** Development blog ***
+Creating a new project
+
+3 tables needed category, item, item-class and a join table for cat-item
+
+creating all necessary resources initially for all 3 major tables
+
+create a resource, dto for category,item
+create entity for category_item, class_item
